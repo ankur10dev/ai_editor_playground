@@ -25,6 +25,8 @@ const createZustandContext = <TInitial, TStore extends StoreApi<any>>(
 }
 
 type State = {
+  setImageWidth: any
+  setImageHeight: any
   tags: string[]
   setTags: (tags: string[]) => void
   activeTag: string
